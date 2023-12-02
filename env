@@ -1,0 +1,5 @@
+#Comentar el que no se esté usando
+#correr local
+#VITE_BACKEND_URL = "http://localhost:3000"
+#Deploy online 
+VITE_BACEKND_URL = "https://backend-puvb.onrender.com"
