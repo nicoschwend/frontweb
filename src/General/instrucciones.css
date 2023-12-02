@@ -1,0 +1,29 @@
+.seccion {
+    text-align: left;
+    background-color: gray;
+    padding-left: 30px;
+}
+
+body {
+        background-color: darkgrey;
+}
+
+.titulo {
+    background-color: darkgray;
+}
+
+h2 {
+    padding: 1%;
+}
+
+h2 span {
+    background-color: darkgray;
+    border-radius: 5px;
+    block-size: 10px;
+    margin-block: 5px;
+    padding-left: 3px;
+}
+
+p span {
+    width: 400px;
+}

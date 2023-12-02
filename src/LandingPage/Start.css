@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Start {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.Header {
+    width: 100%;
+    height: 120px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.Header .Logo h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Header .Menu {
+    list-style: none;
+}
+
+.Header .Menu ul li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.Header .Menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Header .Btn {
+    padding: 10px 30px;
+}
+
+.Header .Btn button,
+.Columnas button {
+    padding: 10px 30px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Body {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.Columnas {
+    flex-basis: 50%;
+}
+
+.Columnas1 {
+    margin-left: 45px;
+}
+
+.Columnas h2 {
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 40px;
+    color: black;
+}
+
+.Columnas h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 40px;
+    color: black;
+}
+
+.Columnas p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: black;
+}
+
+.Columnas button {
+    margin-top: 30px;
+}
+
+.Columnas button:hover,
+.Header .Btn button:hover {
+    background-color: darkcyan;
+}
+
+.Tarea-button {
+    width: 80%;
+    height: 20%;
+    display: block;
+    margin: 10px 0;
+    padding: 15px 40px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Tarea-button:hover {
+    background-color: darkcyan;
+}
+
+.Tarea-button.completed {
+    position: relative;
+    background-color: cadetblue;
+}
+
+.Tarea-button.completed::after {
+    content: "✓";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    border-radius: 6px;
+}

@@ -1,0 +1,49 @@
+.Reminder {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Reminder h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Reminder ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Reminder li {
+    margin: 5px;
+    color: black;
+  }
+  
+  .Reminder div {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .Reminder input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white; /* Adjust text color as needed */
+  }
+  
+  .Reminder Button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Reminder Button:hover {
+    background-color: darkcyan;
+  }
+  

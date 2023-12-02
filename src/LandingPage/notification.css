@@ -1,0 +1,50 @@
+.Notification {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .Notification h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Notification form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .Notification label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .Notification input,
+  .Notification textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white; /* Assuming white text color, adjust as needed */
+  }
+  
+  .Notification button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Notification button:hover {
+    background-color: darkcyan;
+  }
+  
